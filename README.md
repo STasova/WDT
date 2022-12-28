@@ -1,2 +1,2 @@
 # WDT
- Watch Dog Timer
+ Watch Dog Timer with Attiny45
