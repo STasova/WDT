@@ -16,7 +16,7 @@ void loop() {
   bekle = millis() - basla;
   if (bekle > 15000)
   {
-    pinMode(3, OUTPUT);//PB3=1nolu Bacağı resetine bağlı
+    pinMode(3, OUTPUT);//PB3=2nolu Bacağı Arduino'nun resetine bağlı
     digitalWrite(3, LOW);
     delay(10);
     for (int i = 0; i < 3; i++)
