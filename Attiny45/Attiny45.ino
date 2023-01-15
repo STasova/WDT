@@ -14,7 +14,7 @@ void setup()
 
 void loop() {
   bekle = millis() - basla;
-  if (bekle > 15000)
+  if (bekle > 15000) // ayarlamak istediğin süreyi 15000 ms yerine girebilirsin, Max=~49 güne denk gelen rakamı aşmamalı (look at "Unsigned long" value)
   {
     pinMode(3, OUTPUT);//PB3=2nolu Bacağı Arduino'nun resetine bağlı
     digitalWrite(3, LOW);
